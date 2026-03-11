@@ -1,0 +1,1348 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>VOIDWEAR — Wear the silence.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <header id="site-header">
+      <div class="header-full">
+        <div class="header-util-row">
+          <span class="header-year">2026</span>
+          <nav class="header-util-links">
+            <a href="#">My Page</a><a href="#">My Like</a
+            ><a href="#">Shopping Bag</a><a href="#">Login</a>
+          </nav>
+        </div>
+        <div class="header-logo-row">
+          <a href="index.html" class="header-logo-full">VOIDWEAR</a>
+        </div>
+        <div class="header-nav-row">
+          <nav class="header-gnb" id="headerGnb">
+            <div class="gnb-item" data-menu="outer">
+              <a href="category.html" class="gnb-link">OUTER</a>
+            </div>
+            <div class="gnb-item" data-menu="top">
+              <a href="category.html" class="gnb-link">TOP</a>
+            </div>
+            <div class="gnb-item" data-menu="bottom">
+              <a href="category.html" class="gnb-link">BOTTOM</a>
+            </div>
+            <div class="gnb-item" data-menu="dress">
+              <a href="category.html" class="gnb-link">DRESS</a>
+            </div>
+            <div class="gnb-item" data-menu="acc">
+              <a href="category.html" class="gnb-link">ACC</a>
+            </div>
+            <div class="gnb-item" data-menu="shoes">
+              <a href="category.html" class="gnb-link">SHOES</a>
+            </div>
+            <div class="gnb-item" data-menu="sale">
+              <a href="category.html" class="gnb-link">SALE</a>
+            </div>
+            <div class="gnb-item" data-menu="new_arr">
+              <a href="category.html" class="gnb-link">NEW</a>
+            </div>
+          </nav>
+          <button class="header-search-btn" id="searchToggle" aria-label="검색">
+            <svg
+              viewBox="0 0 18 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <circle cx="7.5" cy="7.5" r="5.5" />
+              <line
+                x1="11.5"
+                y1="11.5"
+                x2="16"
+                y2="16"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="header-compact">
+        <a href="index.html" class="header-compact-logo">VOIDWEAR</a>
+        <nav class="header-compact-nav">
+          <a href="category.html">OUTER</a><a href="category.html">TOP</a
+          ><a href="category.html">BOTTOM</a><a href="category.html">DRESS</a
+          ><a href="category.html">ACC</a><a href="category.html">SHOES</a
+          ><a href="category.html">SALE</a><a href="category.html">NEW</a>
+        </nav>
+        <div class="header-compact-right">
+          <div class="header-compact-dots">
+            <span class="compact-dot"></span><span class="compact-dot"></span
+            ><span class="compact-dot"></span><span class="compact-dot"></span>
+          </div>
+          <button
+            class="header-search-btn"
+            id="searchToggle2"
+            aria-label="검색"
+          >
+            <svg
+              viewBox="0 0 18 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            >
+              <circle cx="7.5" cy="7.5" r="5.5" />
+              <line
+                x1="11.5"
+                y1="11.5"
+                x2="16"
+                y2="16"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="header-search-bar" id="searchBar">
+        <input
+          type="text"
+          placeholder="검색어를 입력하세요"
+          id="searchInput"
+        /><button class="search-close-btn" id="searchClose">&#x2715;</button>
+      </div>
+      <div id="mega-dropdown">
+        <div class="dropdown-set" data-for="outer">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">코트</span>
+              <ul>
+                <li><a href="#">싱글 코트</a></li>
+                <li><a href="#">더블 코트</a></li>
+                <li><a href="#">트렌치 코트</a></li>
+                <li><a href="#">울 코트</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">패딩</span>
+              <ul>
+                <li><a href="#">롱패딩</a></li>
+                <li><a href="#">숏패딩</a></li>
+                <li><a href="#">경량패딩</a></li>
+                <li><a href="#">패딩조끼</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">자켓</span>
+              <ul>
+                <li><a href="#">데님 자켓</a></li>
+                <li><a href="#">레더 자켓</a></li>
+                <li><a href="#">블루종</a></li>
+                <li><a href="#">사파리 자켓</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">블레이저</span>
+              <ul>
+                <li><a href="#">싱글</a></li>
+                <li><a href="#">더블</a></li>
+                <li><a href="#">오버핏</a></li>
+                <li><a href="#">크롭</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">점퍼</span>
+              <ul>
+                <li><a href="#">항공 점퍼</a></li>
+                <li><a href="#">코치 자켓</a></li>
+                <li><a href="#">아노락</a></li>
+                <li><a href="#">집업</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="top">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">반팔 티셔츠</span>
+              <ul>
+                <li><a href="#">라운드넥</a></li>
+                <li><a href="#">오버핏</a></li>
+                <li><a href="#">크롭</a></li>
+                <li><a href="#">프린트</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">긴팔 티셔츠</span>
+              <ul>
+                <li><a href="#">스트라이프</a></li>
+                <li><a href="#">터틀넥</a></li>
+                <li><a href="#">헨리넥</a></li>
+                <li><a href="#">레이어드</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">후드 / 맨투맨</span>
+              <ul>
+                <li><a href="#">오버핏 후디</a></li>
+                <li><a href="#">크롭 후디</a></li>
+                <li><a href="#">베이직 맨투맨</a></li>
+                <li><a href="#">피그먼트</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">니트 / 스웨터</span>
+              <ul>
+                <li><a href="#">라운드 니트</a></li>
+                <li><a href="#">V넥 니트</a></li>
+                <li><a href="#">카디건</a></li>
+                <li><a href="#">니트 베스트</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">셔츠</span>
+              <ul>
+                <li><a href="#">옥스포드</a></li>
+                <li><a href="#">린넨</a></li>
+                <li><a href="#">데님 셔츠</a></li>
+                <li><a href="#">오버핏 셔츠</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="bottom">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">데님</span>
+              <ul>
+                <li><a href="#">스트레이트</a></li>
+                <li><a href="#">와이드</a></li>
+                <li><a href="#">부츠컷</a></li>
+                <li><a href="#">테이퍼드</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">슬랙스</span>
+              <ul>
+                <li><a href="#">와이드</a></li>
+                <li><a href="#">세미 와이드</a></li>
+                <li><a href="#">스트레이트</a></li>
+                <li><a href="#">크롭</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">조거 / 트레이닝</span>
+              <ul>
+                <li><a href="#">조거팬츠</a></li>
+                <li><a href="#">트레이닝</a></li>
+                <li><a href="#">스웨트팬츠</a></li>
+                <li><a href="#">트랙</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">카고</span>
+              <ul>
+                <li><a href="#">와이드 카고</a></li>
+                <li><a href="#">밀리터리</a></li>
+                <li><a href="#">스트릿 카고</a></li>
+                <li><a href="#">숏 카고</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">숏팬츠</span>
+              <ul>
+                <li><a href="#">데님 숏팬츠</a></li>
+                <li><a href="#">치노</a></li>
+                <li><a href="#">나일론</a></li>
+                <li><a href="#">스웨트</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="dress">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">미니</span>
+              <ul>
+                <li><a href="#">A라인</a></li>
+                <li><a href="#">셔츠형</a></li>
+                <li><a href="#">니트형</a></li>
+                <li><a href="#">캐주얼</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">미디</span>
+              <ul>
+                <li><a href="#">랩 원피스</a></li>
+                <li><a href="#">플리츠</a></li>
+                <li><a href="#">셔츠 원피스</a></li>
+                <li><a href="#">린넨</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">롱</span>
+              <ul>
+                <li><a href="#">맥시</a></li>
+                <li><a href="#">티어드</a></li>
+                <li><a href="#">슬립</a></li>
+                <li><a href="#">오버사이즈</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">점프수트</span>
+              <ul>
+                <li><a href="#">와이드</a></li>
+                <li><a href="#">유틸리티</a></li>
+                <li><a href="#">데님</a></li>
+                <li><a href="#">캐주얼</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">투피스 세트</span>
+              <ul>
+                <li><a href="#">상하 세트</a></li>
+                <li><a href="#">니트 세트</a></li>
+                <li><a href="#">린넨 세트</a></li>
+                <li><a href="#">저지 세트</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="acc">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">모자</span>
+              <ul>
+                <li><a href="#">볼캡</a></li>
+                <li><a href="#">비니</a></li>
+                <li><a href="#">버킷햇</a></li>
+                <li><a href="#">피셔맨</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">가방</span>
+              <ul>
+                <li><a href="#">백팩</a></li>
+                <li><a href="#">토트백</a></li>
+                <li><a href="#">크로스백</a></li>
+                <li><a href="#">숄더백</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">벨트</span>
+              <ul>
+                <li><a href="#">레더</a></li>
+                <li><a href="#">캔버스</a></li>
+                <li><a href="#">체인</a></li>
+                <li><a href="#">링 벨트</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">양말</span>
+              <ul>
+                <li><a href="#">크루삭스</a></li>
+                <li><a href="#">앵클삭스</a></li>
+                <li><a href="#">롱삭스</a></li>
+                <li><a href="#">스포츠</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">스카프 / 주얼리</span>
+              <ul>
+                <li><a href="#">머플러</a></li>
+                <li><a href="#">넥커치프</a></li>
+                <li><a href="#">반지</a></li>
+                <li><a href="#">네크리스</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="shoes">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">스니커즈</span>
+              <ul>
+                <li><a href="#">로우탑</a></li>
+                <li><a href="#">하이탑</a></li>
+                <li><a href="#">캔버스</a></li>
+                <li><a href="#">러닝화</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">부츠</span>
+              <ul>
+                <li><a href="#">첼시 부츠</a></li>
+                <li><a href="#">워커</a></li>
+                <li><a href="#">사이드집</a></li>
+                <li><a href="#">앵클 부츠</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">로퍼</span>
+              <ul>
+                <li><a href="#">페니 로퍼</a></li>
+                <li><a href="#">태슬</a></li>
+                <li><a href="#">청키</a></li>
+                <li><a href="#">뮬</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">샌들 / 슬리퍼</span>
+              <ul>
+                <li><a href="#">스트랩</a></li>
+                <li><a href="#">슬라이드</a></li>
+                <li><a href="#">플립플랍</a></li>
+                <li><a href="#">스포츠 샌들</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">포멀</span>
+              <ul>
+                <li><a href="#">더비</a></li>
+                <li><a href="#">옥스포드</a></li>
+                <li><a href="#">몽크스트랩</a></li>
+                <li><a href="#">플랫폼</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="sale">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">아우터</span>
+              <ul>
+                <li><a href="#">코트 ~50%</a></li>
+                <li><a href="#">자켓 ~40%</a></li>
+                <li><a href="#">패딩 ~60%</a></li>
+                <li><a href="#">점퍼 ~35%</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">상의</span>
+              <ul>
+                <li><a href="#">티셔츠 ~30%</a></li>
+                <li><a href="#">후디 ~40%</a></li>
+                <li><a href="#">니트 ~50%</a></li>
+                <li><a href="#">셔츠 ~25%</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">하의</span>
+              <ul>
+                <li><a href="#">데님 ~40%</a></li>
+                <li><a href="#">슬랙스 ~30%</a></li>
+                <li><a href="#">카고 ~35%</a></li>
+                <li><a href="#">조거 ~25%</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">원피스</span>
+              <ul>
+                <li><a href="#">미디 ~40%</a></li>
+                <li><a href="#">롱 ~35%</a></li>
+                <li><a href="#">점프수트 ~30%</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">악세서리</span>
+              <ul>
+                <li><a href="#">모자 ~30%</a></li>
+                <li><a href="#">가방 ~40%</a></li>
+                <li><a href="#">슈즈 ~35%</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown-set" data-for="new_arr">
+          <div class="dropdown-grid">
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">금주 신상</span>
+              <ul>
+                <li><a href="#">아우터</a></li>
+                <li><a href="#">상의</a></li>
+                <li><a href="#">하의</a></li>
+                <li><a href="#">원피스</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">이번달 입고</span>
+              <ul>
+                <li><a href="#">3월 1주차</a></li>
+                <li><a href="#">3월 2주차</a></li>
+                <li><a href="#">3월 3주차</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">기획전</span>
+              <ul>
+                <li><a href="#">봄 컬렉션</a></li>
+                <li><a href="#">유니섹스 특집</a></li>
+                <li><a href="#">컬러 기획전</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">콜라보</span>
+              <ul>
+                <li><a href="#">아티스트</a></li>
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">한정판</a></li>
+              </ul>
+            </div>
+            <div class="dropdown-col">
+              <span class="dropdown-col-title">프리오더</span>
+              <ul>
+                <li><a href="#">S/S 프리오더</a></li>
+                <li><a href="#">리미티드</a></li>
+                <li><a href="#">얼리버드</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mobile-header">
+      <a href="index.html" class="mobile-logo">VOIDWEAR</a>
+    </div>
+    <div class="mobile-search-bar" id="mobileSearchBar">
+      <input type="text" placeholder="검색어를 입력하세요" /><button
+        class="mobile-search-close"
+        id="mobileSearchClose"
+      >
+        &#x2715;
+      </button>
+    </div>
+    <div class="mobile-menu-panel" id="mobileMenuPanel">
+      <div class="mob-ad-banner">
+        <img src="assets/images/mobile/ad_thumb.png" alt="AD" />
+        <div>
+          <p class="mob-ad-title">VOIDWEAR 2026 S/S 신상 입고</p>
+          <a href="#" class="mob-ad-link">바로가기 ›</a>
+        </div>
+      </div>
+      <div class="mob-menu-grid">
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">OUTER</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">코트</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">싱글 코트</a></li>
+                <li><a href="#">더블 코트</a></li>
+                <li><a href="#">트렌치 코트</a></li>
+                <li><a href="#">울 코트</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">패딩</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">롱패딩</a></li>
+                <li><a href="#">숏패딩</a></li>
+                <li><a href="#">경량패딩</a></li>
+                <li><a href="#">패딩조끼</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">자켓</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">데님 자켓</a></li>
+                <li><a href="#">레더 자켓</a></li>
+                <li><a href="#">블루종</a></li>
+                <li><a href="#">사파리 자켓</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">블레이저</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">싱글 블레이저</a></li>
+                <li><a href="#">더블 블레이저</a></li>
+                <li><a href="#">오버핏</a></li>
+                <li><a href="#">크롭</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">점퍼</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">항공 점퍼</a></li>
+                <li><a href="#">코치 자켓</a></li>
+                <li><a href="#">아노락</a></li>
+                <li><a href="#">집업</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">TOP</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">반팔 티셔츠</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">라운드넥</a></li>
+                <li><a href="#">오버핏</a></li>
+                <li><a href="#">크롭</a></li>
+                <li><a href="#">프린트</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">긴팔 티셔츠</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">스트라이프</a></li>
+                <li><a href="#">터틀넥</a></li>
+                <li><a href="#">헨리넥</a></li>
+                <li><a href="#">레이어드</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">후드 / 맨투맨</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">오버핏 후디</a></li>
+                <li><a href="#">크롭 후디</a></li>
+                <li><a href="#">베이직 맨투맨</a></li>
+                <li><a href="#">피그먼트</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">니트 / 스웨터</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">라운드 니트</a></li>
+                <li><a href="#">V넥 니트</a></li>
+                <li><a href="#">카디건</a></li>
+                <li><a href="#">니트 베스트</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">셔츠</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">옥스포드</a></li>
+                <li><a href="#">린넨</a></li>
+                <li><a href="#">데님 셔츠</a></li>
+                <li><a href="#">오버핏 셔츠</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">BOTTOM</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">데님</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">스트레이트</a></li>
+                <li><a href="#">와이드</a></li>
+                <li><a href="#">부츠컷</a></li>
+                <li><a href="#">테이퍼드</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">슬랙스</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">와이드 슬랙스</a></li>
+                <li><a href="#">세미 와이드</a></li>
+                <li><a href="#">스트레이트</a></li>
+                <li><a href="#">크롭</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">조거 / 트레이닝</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">조거팬츠</a></li>
+                <li><a href="#">트레이닝</a></li>
+                <li><a href="#">스웨트팬츠</a></li>
+                <li><a href="#">트랙</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">카고</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">와이드 카고</a></li>
+                <li><a href="#">밀리터리</a></li>
+                <li><a href="#">스트릿 카고</a></li>
+                <li><a href="#">숏 카고</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">숏팬츠</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">데님 숏팬츠</a></li>
+                <li><a href="#">치노 숏팬츠</a></li>
+                <li><a href="#">나일론</a></li>
+                <li><a href="#">스웨트</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">DRESS</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">미니 원피스</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">A라인</a></li>
+                <li><a href="#">셔츠형</a></li>
+                <li><a href="#">니트형</a></li>
+                <li><a href="#">캐주얼</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">미디 원피스</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">랩 원피스</a></li>
+                <li><a href="#">플리츠</a></li>
+                <li><a href="#">셔츠 원피스</a></li>
+                <li><a href="#">린넨</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">롱 원피스</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">맥시</a></li>
+                <li><a href="#">티어드</a></li>
+                <li><a href="#">슬립</a></li>
+                <li><a href="#">오버사이즈</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">점프수트</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">와이드</a></li>
+                <li><a href="#">유틸리티</a></li>
+                <li><a href="#">데님</a></li>
+                <li><a href="#">캐주얼</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">투피스 세트</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">상하 세트</a></li>
+                <li><a href="#">니트 세트</a></li>
+                <li><a href="#">린넨 세트</a></li>
+                <li><a href="#">저지 세트</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">ACC</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">모자</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">볼캡</a></li>
+                <li><a href="#">비니</a></li>
+                <li><a href="#">버킷햇</a></li>
+                <li><a href="#">피셔맨</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">가방</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">백팩</a></li>
+                <li><a href="#">토트백</a></li>
+                <li><a href="#">크로스백</a></li>
+                <li><a href="#">숄더백</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">벨트</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">레더 벨트</a></li>
+                <li><a href="#">캔버스</a></li>
+                <li><a href="#">체인</a></li>
+                <li><a href="#">링 벨트</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">양말</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">크루삭스</a></li>
+                <li><a href="#">앵클삭스</a></li>
+                <li><a href="#">롱삭스</a></li>
+                <li><a href="#">스포츠</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">스카프 / 주얼리</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">머플러</a></li>
+                <li><a href="#">넥커치프</a></li>
+                <li><a href="#">반지</a></li>
+                <li><a href="#">네크리스</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">SHOES</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">스니커즈</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">로우탑</a></li>
+                <li><a href="#">하이탑</a></li>
+                <li><a href="#">캔버스</a></li>
+                <li><a href="#">러닝화</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">부츠</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">첼시 부츠</a></li>
+                <li><a href="#">워커</a></li>
+                <li><a href="#">사이드집</a></li>
+                <li><a href="#">앵클 부츠</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">로퍼</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">페니 로퍼</a></li>
+                <li><a href="#">태슬</a></li>
+                <li><a href="#">청키</a></li>
+                <li><a href="#">뮬</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">샌들 / 슬리퍼</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">스트랩</a></li>
+                <li><a href="#">슬라이드</a></li>
+                <li><a href="#">플립플랍</a></li>
+                <li><a href="#">스포츠 샌들</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">포멀</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">더비</a></li>
+                <li><a href="#">옥스포드</a></li>
+                <li><a href="#">몽크스트랩</a></li>
+                <li><a href="#">플랫폼</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">SALE</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">아우터 세일</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">코트 ~50%</a></li>
+                <li><a href="#">자켓 ~40%</a></li>
+                <li><a href="#">패딩 ~60%</a></li>
+                <li><a href="#">점퍼 ~35%</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">상의 세일</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">티셔츠 ~30%</a></li>
+                <li><a href="#">후디 ~40%</a></li>
+                <li><a href="#">니트 ~50%</a></li>
+                <li><a href="#">셔츠 ~25%</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">하의 세일</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">데님 ~40%</a></li>
+                <li><a href="#">슬랙스 ~30%</a></li>
+                <li><a href="#">카고 ~35%</a></li>
+                <li><a href="#">조거 ~25%</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">원피스 세일</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">미디 ~40%</a></li>
+                <li><a href="#">롱 ~35%</a></li>
+                <li><a href="#">점프수트 ~30%</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">악세서리 세일</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">모자 ~30%</a></li>
+                <li><a href="#">가방 ~40%</a></li>
+                <li><a href="#">슈즈 ~35%</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-section">
+          <h3 class="mob-menu-title">NEW</h3>
+          <ul>
+            <li class="mob-menu-item">
+              <a href="#">금주 신상</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">아우터</a></li>
+                <li><a href="#">상의</a></li>
+                <li><a href="#">하의</a></li>
+                <li><a href="#">원피스</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">이번달 입고</a
+              ><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">3월 1주차</a></li>
+                <li><a href="#">3월 2주차</a></li>
+                <li><a href="#">3월 3주차</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">기획전</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">봄 컬렉션</a></li>
+                <li><a href="#">유니섹스 특집</a></li>
+                <li><a href="#">컬러 기획전</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">콜라보</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">아티스트 콜라보</a></li>
+                <li><a href="#">브랜드 콜라보</a></li>
+                <li><a href="#">한정판</a></li>
+              </ul>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#">프리오더</a><button class="mob-menu-plus">+</button>
+              <ul class="mob-submenu">
+                <li><a href="#">S/S 프리오더</a></li>
+                <li><a href="#">리미티드 에디션</a></li>
+                <li><a href="#">얼리버드</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-col" id="heroCol0">
+          <a href="category.html" class="hero-col__link"></a>
+          <div
+            class="hero-col__bg"
+            style="
+              background-image: url(&quot;assets/images/hero/hero_01.png&quot;);
+            "
+          ></div>
+          <div class="hero-col__overlay"></div>
+          <div class="hero-col__text">
+            <span class="hero-col__label">2026 NEW ARRIVAL</span
+            ><span class="hero-col__arrow">SHOP NOW &#8594;</span>
+          </div>
+        </div>
+        <div class="hero-col" id="heroCol1">
+          <a href="category.html" class="hero-col__link"></a>
+          <div
+            class="hero-col__bg"
+            style="
+              background-image: url(&quot;assets/images/hero/hero_02.png&quot;);
+            "
+          ></div>
+          <div class="hero-col__overlay"></div>
+          <div class="hero-col__text">
+            <span class="hero-col__label">S/S STREET COLLECTION</span
+            ><span class="hero-col__arrow">EXPLORE &#8594;</span>
+          </div>
+        </div>
+        <div class="hero-col" id="heroCol2">
+          <a href="category.html" class="hero-col__link"></a>
+          <div
+            class="hero-col__bg"
+            style="
+              background-image: url(&quot;assets/images/hero/hero_03.png&quot;);
+            "
+          ></div>
+          <div class="hero-col__overlay"></div>
+          <div class="hero-col__text">
+            <span class="hero-col__label">UNISEX ESSENTIAL</span
+            ><span class="hero-col__arrow">VIEW ALL &#8594;</span>
+          </div>
+        </div>
+        <button class="hero-prev" id="heroPrev">&#8249;</button
+        ><button class="hero-next" id="heroNext">&#8250;</button>
+        <div class="hero-indicator">
+          <div class="hero-indicator-text">
+            <span class="slide-current" id="slideNum">01</span> / 03
+          </div>
+          <div class="hero-indicator-bar">
+            <div
+              class="hero-indicator-fill"
+              id="slideBar"
+              style="width: 33.3%"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="scroll-section" id="scrollSection">
+        <div class="scroll-col scroll-col--left">
+          <div class="scroll-banner-grid">
+            <div class="scroll-banner-img">
+              <img
+                src="assets/images/sub/sub_banner_01.png"
+                alt="2026 S/S LOOKBOOK"
+              />
+            </div>
+            <div class="scroll-banner-img">
+              <img
+                src="assets/images/sub/sub_banner_02.png"
+                alt="STREET COLLECTION"
+              />
+            </div>
+          </div>
+          <div class="scroll-left-text">
+            <span>2026 S/S</span><span>LOOKBOOK</span>
+          </div>
+        </div>
+        <div class="scroll-col scroll-col--mid">
+          <div class="scroll-col-img">
+            <img
+              src="assets/images/products/product_07.png"
+              alt="STREET OUTER"
+            />
+          </div>
+          <div class="scroll-col-content">
+            <h2 class="scroll-col-title">STREET OUTER</h2>
+            <p class="scroll-col-desc">
+              도시적 무드의 오버사이즈 아우터 컬렉션.<br />거리 위의 존재감을
+              완성하는 필수 아이템.
+            </p>
+            <hr class="scroll-col-sep" />
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_01.png"
+                  alt="VOID 오버사이즈 코트"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">VOID 오버사이즈 코트</p>
+                <p class="scroll-product__desc">
+                  헤비 울 블렌드 / 드롭 숄더 / 유니섹스
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">30%</span
+                  ><span class="scroll-product__price">₩189,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_02.png"
+                  alt="레이어드 트렌치 코트"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">레이어드 트렌치 코트</p>
+                <p class="scroll-product__desc">
+                  코튼 트윌 / 더블 브레스티드 / 벨트 포함
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">20%</span
+                  ><span class="scroll-product__price">₩156,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-col-img-bottom">
+            <img src="assets/images/products/product_03.png" alt="" />
+          </div>
+          <div class="scroll-col-content">
+            <h2 class="scroll-col-title">DAILY BOTTOM</h2>
+            <p class="scroll-col-desc">
+              편안한 실루엣의 데일리 하의 컬렉션.<br />어떤 상의와도 완벽한
+              밸런스.
+            </p>
+            <hr class="scroll-col-sep" />
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_09.png"
+                  alt="스트릿 카고 팬츠"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">스트릿 카고 팬츠</p>
+                <p class="scroll-product__desc">
+                  코튼 트윌 / 와이드핏 / 멀티 포켓
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">15%</span
+                  ><span class="scroll-product__price">₩79,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_10.png"
+                  alt="VOID 워크웨어 자켓"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">VOID 워크웨어 자켓</p>
+                <p class="scroll-product__desc">
+                  헤비 캔버스 / 유틸리티 포켓 / 오버핏
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">20%</span
+                  ><span class="scroll-product__price">₩128,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-col scroll-col--right">
+          <div class="scroll-col-img">
+            <img
+              src="assets/images/products/product_08.png"
+              alt="MINIMAL TOP"
+            />
+          </div>
+          <div class="scroll-col-content">
+            <h2 class="scroll-col-title">MINIMAL TOP</h2>
+            <p class="scroll-col-desc">
+              심플하면서도 존재감 있는 유니섹스 상의.<br />어디에든 어울리는
+              데일리 에센셜.
+            </p>
+            <hr class="scroll-col-sep" />
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_04.png"
+                  alt="VOID 그래픽 티셔츠"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">VOID 그래픽 티셔츠</p>
+                <p class="scroll-product__desc">
+                  코튼 100% / 오버핏 / 시즌 프린트
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">15%</span
+                  ><span class="scroll-product__price">₩48,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_05.png"
+                  alt="DARK 오버핏 후디"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">DARK 오버핏 후디</p>
+                <p class="scroll-product__desc">
+                  기모 안감 / 드롭 숄더 / 더블 스티치
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">25%</span
+                  ><span class="scroll-product__price">₩89,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-col-img-bottom">
+            <img src="assets/images/products/product_06.png" alt="" />
+          </div>
+          <div class="scroll-col-content">
+            <h2 class="scroll-col-title">UNISEX ACC</h2>
+            <p class="scroll-col-desc">
+              스타일을 완성하는 유니섹스 악세서리.<br />디테일로 차이를 만드는
+              아이템.
+            </p>
+            <hr class="scroll-col-sep" />
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_11.png"
+                  alt="미니멀 니트 베스트"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">미니멀 니트 베스트</p>
+                <p class="scroll-product__desc">울 혼방 / V넥 / 레이어드 핏</p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">10%</span
+                  ><span class="scroll-product__price">₩58,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-product">
+              <div class="scroll-product__thumb">
+                <img
+                  src="assets/images/products/product_12.png"
+                  alt="릴렉스 린넨 셔츠"
+                />
+              </div>
+              <div class="scroll-product__info">
+                <p class="scroll-product__name">릴렉스 린넨 셔츠</p>
+                <p class="scroll-product__desc">
+                  프렌치 린넨 / 루즈핏 / 유니섹스
+                </p>
+                <div class="scroll-product__row">
+                  <span class="scroll-product__discount">25%</span
+                  ><span class="scroll-product__price">₩65,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">VOIDWEAR</a>
+          <p class="footer-slogan">Wear the silence.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-link-group">
+            <h4>SHOP</h4>
+            <ul>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Best Sellers</a></li>
+              <li><a href="#">Sale</a></li>
+              <li><a href="#">Lookbook</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-group">
+            <h4>SUPPORT</h4>
+            <ul>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">배송 안내</a></li>
+              <li><a href="#">교환 / 반품</a></li>
+              <li><a href="#">사이즈 가이드</a></li>
+            </ul>
+          </div>
+          <div class="footer-link-group">
+            <h4>INFO</h4>
+            <ul>
+              <li><a href="#">브랜드 소개</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">사업자 정보</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-sns">
+          <div class="footer-sns-links">
+            <a href="#" aria-label="Instagram">IG</a
+            ><a href="#" aria-label="X">X</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 VOIDWEAR. All rights reserved.</p>
+        <nav class="footer-bottom-links">
+          <a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookie</a>
+        </nav>
+      </div>
+    </footer>
+    <nav class="mobile-nav-bar">
+      <a href="index.html" class="mob-nav-item is-active" data-nav="home"
+        ><span class="mob-nav-icon"
+          ><svg
+            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <path d="M3 9.5L10 3l7 6.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" />
+            <path d="M7 18v-5h6v5" /></svg></span
+        ><span class="mob-nav-label">Home</span></a
+      ><a href="#" class="mob-nav-item" data-nav="category" id="mobCatBtn"
+        ><span class="mob-nav-icon"
+          ><svg
+            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <rect x="3" y="3" width="6" height="6" rx="1" />
+            <rect x="11" y="3" width="6" height="6" rx="1" />
+            <rect x="3" y="11" width="6" height="6" rx="1" />
+            <rect x="11" y="11" width="6" height="6" rx="1" /></svg></span
+        ><span class="mob-nav-label">Category</span></a
+      ><a href="#" class="mob-nav-item nav-search"
+        ><span class="mob-nav-icon"
+          ><svg
+            viewBox="0 0 18 18"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <circle cx="7.5" cy="7.5" r="5.5" />
+            <line
+              x1="11.5"
+              y1="11.5"
+              x2="16"
+              y2="16"
+              stroke-linecap="round"
+            /></svg></span
+        ><span class="mob-nav-label">Search</span></a
+      ><a href="#" class="mob-nav-item" data-nav="like"
+        ><span class="mob-nav-icon"
+          ><svg
+            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <path
+              d="M10 16.5S3 12 3 7a4 4 0 017-2.7A4 4 0 0117 7c0 5-7 9.5-7 9.5z"
+            /></svg></span
+        ><span class="mob-nav-label">Like</span></a
+      ><a href="#" class="mob-nav-item" data-nav="mypage"
+        ><span class="mob-nav-icon"
+          ><svg
+            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <circle cx="10" cy="7" r="3.5" />
+            <path
+              d="M3 17c0-3.3 3.1-6 7-6s7 2.7 7 6"
+              stroke-linecap="round"
+            /></svg></span
+        ><span class="mob-nav-label">My page</span></a
+      >
+    </nav>
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="상단으로">
+      &#8593;
+    </button>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
